@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: var(--default-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif);
+}
+
+input,
+select,
+textarea,
+button {
+  outline: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.status-analyzing { color: orange; }
+.status-accepted { color: green; }
+.status-not-submitted { color: red; }
+
